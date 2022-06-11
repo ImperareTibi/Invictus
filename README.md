@@ -77,7 +77,7 @@ For class-specific config settings you can find them in the folder `overrides` a
 * [Improved and Aligned Medic Heal Beam](https://gamebanana.com/mods/12020).
 
 ## To-Do
-* Scout: Make `Secondary Weapon Toggle` use the Modkey to switch between modes (mad milk, winger, or off).
+* Scout: Make `toggle_scout_secondary` use the Modkey to switch between modes.
 
 ## Known Bugs
 
