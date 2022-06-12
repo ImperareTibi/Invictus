@@ -1,7 +1,7 @@
 # Python3 VPK Scripts
-Allows the user to extract or make .vpk files with Python.
+Allows the user to extract or make .vpk (Valve Pak) files with Python.
 
-### Install the required modules
+## Install the Required Modules
 ```shell
 cd path/to/this/directory
 pip install -r requirements.txt

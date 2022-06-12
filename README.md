@@ -1,14 +1,17 @@
 # Invicta
-*Team Fortress 2 custom configuration files, launch options and mod recommendations. Used in conjunction with [mastercomfig](https://mastercomfig.com/).*
+*Team Fortress 2 custom configuration files, launch options and mod recommendations.*  
+*Can be used in conjunction with [mastercomfig](https://mastercomfig.com/).*
 
 ## Launch Options
 ```
 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
 ```
 
+## Config Release
+Click [Here](https://github.com/ImperareTibi/Invicta/archive/refs/heads/master.zip) for the latest config release.  
+
 ## Installation
-Click [Here](https://github.com/AdImperiumTe/Invicta/archive/refs/heads/master.zip) for the latest config release.  
-Extract the ZIP file, Copy and Paste the folders contents into `tf\cfg`, found in the `Team Fortress 2` folder.  
+Extract the ZIP file, copy and paste the cfg folder contents into `tf\cfg`, found in the `Team Fortress 2` folder.  
 Inside `tf\cfg` should be the folders `overrides` and `user`.
 
 ### Find Team Fortress 2 Folder

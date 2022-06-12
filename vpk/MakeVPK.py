@@ -9,11 +9,10 @@ CLEAR  = '\033[0m'
 
 vpk_name = "Invicta.vpk"
 
-compile_path = os.getcwd() + "/MAKEVPK"
+compile_path = os.getcwd() + "/MAKE_VPK"
 if os.path.exists(compile_path):
-    NEWVPK = vpk.new("./MAKEVPK")
+    NEWVPK = vpk.new("./MAKE_VPK")
     NEWVPK.save(vpk_name)
     print(f"File saved as {BRIGHT}{GREEN}{vpk_name}{CLEAR} in {os.getcwd()}{CLEAR}")
 else:
-    print(f"{RED}Folder not found.\nPlease create a folder named {BRIGHT}MAKEVPK{CLEAR}{RED} and move files to compile inside it. {CLEAR}")
-# pip install -r requirements.txt
+    print(f"{RED}Folder not found.\nPlease create a folder named {BRIGHT}MAKE_VPK{CLEAR}{RED} and move files to compile inside it. {CLEAR}")

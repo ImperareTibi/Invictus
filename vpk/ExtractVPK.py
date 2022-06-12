@@ -11,8 +11,8 @@ CLEAR  = '\033[0m'
 
 vpk_file_name = "Invicta.vpk"
 
-decompiled_path = os.getcwd() + "/DECOMPILED"
-if os.path.exists("./Invicta.vpk"):
+decompiled_path = os.getcwd() + "/DECOMPILED_VPK"
+if os.path.exists(vpk_file_name):
     VPK = vpk.open(vpk_file_name)
 
     if not os.path.exists(decompiled_path):
@@ -34,9 +34,9 @@ if os.path.exists("./Invicta.vpk"):
             print(f"{BRIGHT}Status: {BRIGHT}{GREEN}{status}{CLEAR}", end="\n\n")
         else:
             print(f"""
-    {BRIGHT}File: {YELLOW}File.vpk/{path}
+    {BRIGHT}File: {YELLOW}{vpk_file_name}/{path}
     {CYAN}Exists:{BRIGHT}{GREEN} {os.path.exists(full_path)}
     {CYAN}Path: {YELLOW}{full_path}{CLEAR}""")
         file.save(f"{decompiled_path}/{path}")
 else:
-    print(f"{RED}VPK file not found.\nPlease rename your vpk file to {BRIGHT}{RED}File.vpk{CLEAR} {RED}and try again.{CLEAR}")
+    print(f"{RED}VPK file not found.\nPlease rename your VPK file to {BRIGHT}{RED}{vpk_file_name}{CLEAR} {RED}and try again.{CLEAR}")
