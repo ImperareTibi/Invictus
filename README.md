@@ -1,4 +1,4 @@
-# Invicta
+# Invictus
 *Team Fortress 2 custom configuration files, launch options and mod recommendations.*  
 *Can be used in conjunction with [mastercomfig](https://mastercomfig.com/).*
 
@@ -8,7 +8,7 @@
 ```
 
 ## Config Release
-Click [Here](https://github.com/ImperareTibi/Invicta/archive/refs/heads/master.zip) for the latest config release.  
+Click [Here](https://github.com/ImperareTibi/Invictus/archive/refs/heads/master.zip) for the latest config release.  
 
 ## Installation
 Extract the ZIP file, copy and paste the cfg folder contents into `tf\cfg`, found in the `Team Fortress 2` folder.  
