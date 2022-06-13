@@ -15,7 +15,6 @@ Extract the ZIP file, copy and paste the cfg folder contents into `tf\cfg`, foun
 Inside `tf\cfg` should be the folders `overrides` and `user`.
 
 ### Find Team Fortress 2 Folder
-
 In `Steam` go to `Library` and find `Team Fortress 2`, right-click it and select `Manage` > `Browse local files`.  
 This will open up your `Team Fortress 2` folder.
 
