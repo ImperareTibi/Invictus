@@ -4,7 +4,7 @@
 
 ## Launch Options
 ```
--novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime
+-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime -windowed -noborder
 ```
 
 ## Config Release
